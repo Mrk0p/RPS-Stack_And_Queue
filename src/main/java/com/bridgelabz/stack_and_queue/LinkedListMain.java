@@ -52,5 +52,4 @@ public class LinkedListMain {
             System.out.println("Invalid insertion");
         }
     }
-
 }
