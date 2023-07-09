@@ -2,7 +2,6 @@ package com.bridgelabz.stack_and_queue;
 
 public class Node<E> {
     private E data ;
-
     private Node<E> next ;
 
     public Node() {

@@ -2,6 +2,7 @@ package com.bridgelabz.stack_and_queue;
 
 public class LinkedList<E> {
     Node<E> head ;
+
     Node<E> tail ;
 
     public void add(E data){
@@ -10,13 +11,15 @@ public class LinkedList<E> {
             head = newNode;
             tail = newNode;
         }
-        else {
+        else
+        {
             newNode.setNext(head);
             head = newNode;
         }
     }
 
-    public void display() {
+    public void display()
+    {
         Node<E> temp = head;
         if(head == null){
             System.out.println("Linked List is empty");

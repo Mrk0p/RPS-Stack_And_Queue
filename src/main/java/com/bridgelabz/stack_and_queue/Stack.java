@@ -48,5 +48,6 @@ public class Stack<E> {
         stack1.peek();
         stack1.popStack();
         stack1.print();
+
     }
 }
